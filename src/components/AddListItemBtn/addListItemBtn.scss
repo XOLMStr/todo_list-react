@@ -1,0 +1,19 @@
+.todo__add-task {
+    li {
+      i {
+        display: inline-flex;
+        margin: 0 10px;
+        width: 12px;
+        height: 12px;
+      }
+    }
+    p, img {
+      opacity: 0.6;
+    }
+    .todo__add-task-btn:hover {
+      p, img {
+        opacity: 1;
+      }
+    }
+    
+  }
